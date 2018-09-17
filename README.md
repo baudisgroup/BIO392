@@ -11,4 +11,4 @@ Links
 
 Literature
 
-* [articles and other reading](./literature/)
+* [articles and other reading](literature/)
