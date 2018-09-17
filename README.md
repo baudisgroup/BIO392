@@ -11,8 +11,8 @@ The home page of this repository can be found at [https://baudisgroup.github.io/
 
 #### Literature
 
-* [articles and other reading](https://github.com/baudisgroup/BIO392-Github/tree/master/literature/)
-
+* [articles and other reading](https://github.com/baudisgroup/BIO392-Github/tree/master/literature/) (files)
+* [article links](literature-links.html)
 
 
 ## Schedule
