@@ -4,4 +4,5 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 ### Recommended reading
 
+* 1000 Genomes [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A%20global-reference-for-human-genetic-variation__Nature.pdf)
 * Evans et al: Finding the Rare Pathogenic Variants in a Human Genome [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-05-09___Evans__Clinical_genome_sequencing__JAMA_comment.pdf)

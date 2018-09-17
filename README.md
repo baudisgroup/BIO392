@@ -13,7 +13,7 @@ The home page of this repository can be found at [https://baudisgroup.github.io/
 
 * [articles and other reading](https://github.com/baudisgroup/BIO392-Github/tree/master/literature/) (files)
 * [article links](literature-links.html)
-* [resource links](literature-links.html) (browsers and online repositories)
+* [resource links](resource-links.html) (browsers and online repositories)
 
 
 ## Schedule
@@ -23,7 +23,6 @@ The course schedule consists of 1 afternoon (Tuesday) and 3 "full" days (Wednesd
 The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30. 
 
 Conceptually, mornings are predominantly related to introductions, presentations and discussion of the previous days, and are afternoons reserved for independent  work on the examples and tasks.
-
 
 #### Introduction, File Formats & Genome Browsers (Michael Baudis)
 
