@@ -4,6 +4,10 @@ This is a repository for materials related to the BIO392 _Bioinformatics of Geno
 
 The home page of this repository can be found at [https://baudisgroup.github.io/BIO392-Github/](baudisgroup.github.io/BIO392-Github/).
 
+## Abstract
+
+One of the fastest growing areas of bioinformatics is in the analysis, warehousing and representation of genomic and protein sequence variants, particularly with view on the use of molecular data in personalised health and biomedical applications in general. This course will engage participants to explore common data formats, online resources and analysis techniques, with a focus on human genome variation data.
+
 #### Links
 
 * BIO392 in the [UZH OLAT](https://lms.uzh.ch/auth/RepositoryEntry/16434233613) system
