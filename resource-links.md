@@ -11,7 +11,7 @@ Please feel free to improve this page by submitting your own resource links and 
 ### Variant Resources
 
 * [Cancer Genome Interpreter (CGI)](https://www.cancergenomeinterpreter.org/home)
-* [Clinical Interpretation of Variants in Cancer (CIViC)](www.civicdb.org)
+* [Clinical Interpretation of Variants in Cancer (CIViC)](https://civicdb.org/home)
 * [JAX Clinical Knowledgebase (CKB)](https://ckb.jax.org/)
 * [Molecular Match](https://app.molecularmatch.com/)
 * [OncoKB](http://oncokb.org/#/)
@@ -22,7 +22,7 @@ Please feel free to improve this page by submitting your own resource links and 
 * [MatchMiner](http://bcb.dfci.harvard.edu/knowledge-systems/)
 * [COSMIC Drug Resistance Curation](http://cancer.sanger.ac.uk/cosmic/drug_resistance)
 * [My Cancer Genome](https://www.mycancergenome.org/)
-* [NCI Clinical Trials](www.cancer.gov/about-cancer/treatment/clinical-trials)
+* [NCI Clinical Trials](https://www.cancer.gov/about-cancer/treatment/clinical-trials)
 * [Personalized Cancer Therapy Database](https://pct.mdanderson.org/#/home)
 * [ClinGen Knowledge Base](https://www.clinicalgenome.org/resources-tools/)
 * [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/)
