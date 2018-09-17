@@ -17,12 +17,22 @@ The home page of this repository can be found at [https://baudisgroup.github.io/
 
 ## Schedule
 
+The course schedule consists of 1 afternoon (Tuesday) and 3 "full" days (Wednesday - Friday) in the first two weeks, with 1.5 days in the last week.
+
+The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30. 
+
+Conceptually, mornings are predominantly related to introductions, presentations and discussion of the previous days, and are afternoons reserved for independent  work on the examples and tasks.
+
+
 #### Introduction, File Formats & Genome Browsers (Michael Baudis)
 
 * 2018-09-18 (Tue), 13-17
-* 2018-09-19 (Wed), 09-17:
-* 2018-09-20 (Thu), 09-17: 
-* 2018-09-21 (Fri), 09-17: 
+    * general introduction into the topic
+    * schedule adjustment
+    * guidance about course room and computer use (Tina Siegenthaler)
+* 2018-09-19 (Wed), 09-17
+* 2018-09-20 (Thu), 09-17
+* 2018-09-21 (Fri), 09-17
 
 #### Tools & Programmatic Solutions (Izaskun Mallona)
 
