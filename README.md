@@ -4,11 +4,42 @@ This is a repository for materials related to the BIO392 _Bioinformatics of Geno
 
 The home page of this repository can be found at [https://baudisgroup.github.io/BIO392-Github/](baudisgroup.github.io/BIO392-Github/).
 
-Links
+#### Links
 
 * BIO392 in the [UZH OLAT](https://lms.uzh.ch/auth/RepositoryEntry/16434233613) system
 * BIO392 in the [UZH directory](https://studentservices.uzh.ch/uzh/anonym/vvz/index.html#/details/2018/003/SM/50920456)
 
-Literature
+#### Literature
 
 * [articles and other reading](https://github.com/baudisgroup/BIO392-Github/tree/master/literature/)
+
+
+
+## Schedule
+
+#### Introduction, File Formats & Genome Browsers (Michael Baudis)
+
+* 2018-09-18 (Tue), 13-17
+* 2018-09-19 (Wed), 09-17:
+* 2018-09-20 (Thu), 09-17: 
+* 2018-09-21 (Fri), 09-17: 
+
+#### Tools & Programmatic Solutions (Izaskun Mallona)
+
+* 2018-09-25 (Tue), 13-17
+* 2018-09-26 (Wed), 09-17
+* 2018-09-27 (Thu), 09-17
+* 2018-09-28 (Fri), 09-17
+
+#### Genome Variants to Modified Proteins (Elif Özkirimli Olmez)
+
+* 2018-10-02 (Tue), 13-17
+* 2018-10-03 (Wed), 09-17
+* 2018-10-04 (Thu), 09-17
+* 2018-10-05 (Fri), 09-17
+
+#### Review & Write-Up (Michael Baudis)
+
+* 2018-10-09 (Tue), 13-17
+* 2018-10-10 (Wed), 09-17
+    * Written exam
