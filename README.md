@@ -28,6 +28,8 @@ The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30.
 
 Conceptually, mornings are predominantly related to introductions, presentations and discussion of the previous days, and are afternoons reserved for independent  work on the examples and tasks.
 
+<img src="assets/Y01-F-50-location.png" style="float: right;" />
+
 #### Introduction, File Formats & Genome Browsers (Michael Baudis)
 
 * 2018-09-18 (Tue), 13-17
