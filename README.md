@@ -45,6 +45,8 @@ Conceptually, mornings are predominantly related to introductions, presentations
         - UCSC genome browser tutorial
     * exercise: UCSC tutorial
     * genome editions and coordinates
+    * reading:
+        - segment_liftover article
     * exercise: genome liftover
 * 2018-09-20 (Thu), 09-17
 * 2018-09-21 (Fri), 09-17
