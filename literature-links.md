@@ -27,3 +27,9 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 * Sunyaev (2012): Inferring causality and functional significance of human coding DNA variants [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2012-09-06___Sunyaev__Inferring-causality-and-functional-significance-of-human-coding-DNA-variants__Human_Molecular_Genetics.pdf)
 
+* Freeman et al (2006): Copy number variation: new insights in genome diversity [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2006-06-29___Sunyaev__Copy-number-variation-new insights-in-genome-diversity__Genome_Research.pdf)
+
+* Deng et al (2017): Comparative genomic analysis of esophageal squamous cell carcinoma between Asian and Caucasian patient populations [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-16___Deng__Comparative-genomic-analysis-of-esophageal-squamous-cell-carcinoma-between-Asian-and-Caucasian-patient-populations__Nature_Communications.pdf)
+
+
+
