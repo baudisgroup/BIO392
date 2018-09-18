@@ -2,7 +2,7 @@
 
 This is a repository for materials related to the BIO392 _Bioinformatics of Genome Variation_ introductory course at the University of Zürich, Autumn 2018.
 
-The home page of this repository can be found at [https://baudisgroup.github.io/BIO392-Github/](baudisgroup.github.io/BIO392-Github/).
+The home page of this repository can be found at [baudisgroup.github.io/BIO392-Github/](https://baudisgroup.github.io/BIO392-Github/).
 
 ## Abstract
 
