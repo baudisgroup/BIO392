@@ -17,7 +17,7 @@ This page collects items for the course "reading list" (and beyond). Since the r
 * Sophie Zaaijer - Rapid DNA identification (with nanopore sequencing) [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-28___Zaaijer__Rapid_DNA_identification_elife-27798-v1.pdf) and [webpage](http://ddf.teamerlich.org) about the project; also with a [direct video link](https://vimeo.com/182592328)
 * Mark Gerstein ([Yale](http://Lectures.GersteinLab.org)): Lecture slides "Analyzing Personal Genomes: Prioritizing High-impact Rare & Somatic Variants"  [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2016-03-29___Gerstein_Personal-Genomes-Prioritizing-High-impact-Variants__slides.pdf)
 
-### List of papers for Literature review & Discussion - Thursday 20th afternoon session
+### Literature review & Discussion - Thursday 20th afternoon session
 
 * 1000 Genomes (2015): A global reference for human genetic variation [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A-global-reference-for-human-genetic-variation__Nature.pdf)
 
@@ -30,6 +30,8 @@ This page collects items for the course "reading list" (and beyond). Since the r
 * Freeman et al (2006): Copy number variation: new insights in genome diversity [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2006-06-29___Sunyaev__Copy-number-variation-new-insights-in-genome-diversity__Genome_Research.pdf)
 
 * Deng et al (2017): Comparative genomic analysis of esophageal squamous cell carcinoma between Asian and Caucasian patient populations [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-16___Deng__Comparative-genomic-analysis-of-esophageal-squamous-cell-carcinoma-between-Asian-and-Caucasian-patient-populations__Nature_Communications.pdf)
+
+* Zehir et al (2017): Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-05-08___Zehir_et_al.__MSKCC-IMPACT_Panel_Sequencing_more_than_10000_metastatic_cancer_patients__NatMed.pdf)
 
 
 
