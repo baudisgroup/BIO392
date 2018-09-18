@@ -23,5 +23,7 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 * TCGA Project (2013): The Cancer Genome Atlas Pan-Cancer analysis project [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
 
-* CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
+* Griffith et al (2015): CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
+
+* Sunyaev (2012): Inferring causality and functional significance of human coding DNA variants [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2012-09-06___Sunyaev__Inferring-causality-and-functional-significance-of-human-coding-DNA-variants__Human_Molecular_Genetics.pdf)
 
