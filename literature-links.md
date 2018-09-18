@@ -4,6 +4,7 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 ### Recommended reading
 
+* Heather and Chain (2016): The sequence of sequencers [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2016-01-15___Heather_and_Chain__The-sequence-of-sequencers__Genomics.pdf)
 * Zweig et al. (2008): UCSC genome browser tutorial [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2008-08-01___Zweig_et_al.__UCSC-genome-browser-tutorial__Genomics.pdf)
 * Schattner (2009): Genomics made easier [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2009-03-01___Schattner__Genomics-made-easier__Genomics.pdf)
 * Gao, Huang & Baudis (2018): segment_liftover : a Python tool to convert segments between genome assemblies. [Link](https://info.baudisgroup.org/publications/2018/03/14/segment_liftover.html)

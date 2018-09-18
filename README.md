@@ -38,6 +38,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
     * guidance about course room and computer use (Tina Siegenthaler)
     * reading
         - 1000 Genomes paper
+        - The sequence of sequencers paper
 * 2018-09-19 (Wed), 09-17
     * reference genome resources
     * reading:
