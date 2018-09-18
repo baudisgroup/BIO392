@@ -42,6 +42,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
     * reference genome resources
     * reading:
         - "Genomics made easier"
+        - UCSC genome browser tutorial
     * exercise: UCSC tutorial
     * genome editions and coordinates
     * exercise: genome liftover
