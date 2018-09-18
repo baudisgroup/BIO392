@@ -34,18 +34,19 @@ Conceptually, mornings are predominantly related to introductions, presentations
     * general introduction into the topic ([slides](https://info.baudisgroup.org/assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
     * schedule adjustment
     * guidance about course room and computer use (Tina Siegenthaler)
-    * reading
+    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.md):
         - 1000 Genomes paper
         - The sequence of sequencers paper
-    * tasks
+    * [tasks](https://baudisgroup.github.io/BIO392-Github/literature-links.md):
+        - Genome Storage Space & Cost
 * 2018-09-19 (Wed), 09-17
     * reference genome resources
-    * reading:
+    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.md):
         - "Genomics made easier"
         - UCSC genome browser tutorial
     * exercise: UCSC tutorial
     * genome editions and coordinates
-    * reading:
+    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.md):
         - segment_liftover article
     * exercise: genome liftover
 * 2018-09-20 (Thu), 09-17
