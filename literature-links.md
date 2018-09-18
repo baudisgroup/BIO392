@@ -4,6 +4,7 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 ### Recommended reading
 
+* Schattner (2009): Genomics made easier [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2009-03-01___Schattner__Genomics-made-easier__Genomics.pdf)
 * 1000 Genomes [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A%20global-reference-for-human-genetic-variation__Nature.pdf)
 * Evans et al: Finding the Rare Pathogenic Variants in a Human Genome [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-05-09___Evans__Clinical_genome_sequencing__JAMA_comment.pdf)
 * TCGA Project - The Cancer Genome Atlas Pan Cancer analysis project - Nature Genetics [PDF](http://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
