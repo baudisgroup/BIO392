@@ -14,5 +14,17 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 ### Extended reading
 
-* Sophie Zaaijer - Rapid DNA identification (with nanopore sequencing): [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-28___Zaaijer__Rapid_DNA_identification_elife-27798-v1.pdf) and [webpage](http://ddf.teamerlich.org) about the project; also with a [direct video link](https://vimeo.com/182592328)
+* Sophie Zaaijer - Rapid DNA identification (with nanopore sequencing) [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-28___Zaaijer__Rapid_DNA_identification_elife-27798-v1.pdf) and [webpage](http://ddf.teamerlich.org) about the project; also with a [direct video link](https://vimeo.com/182592328)
 * Mark Gerstein ([Yale](http://Lectures.GersteinLab.org)): Lecture slides "Analyzing Personal Genomes: Prioritizing High-impact Rare & Somatic Variants"  [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2016-03-29___Gerstein_Personal-Genomes-Prioritizing-High-impact-Variants__slides.pdf)
+
+### List of papers for Literature review & Discussion - Thursday 20th afternoon session
+
+* 1. 1000 Genomes (2015): A global reference for human genetic variation [PDF]
+(https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A-global-reference-for-human-genetic-variation__Nature.pdf)
+
+* 2. TCGA Project (2013): The Cancer Genome Atlas Pan-Cancer analysis project [PDF]
+(https://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
+
+* 3. CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF]
+(https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
+
