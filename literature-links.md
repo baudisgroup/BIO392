@@ -20,17 +20,10 @@ This page collects items for the course "reading list" (and beyond). Since the r
 ### Literature review & Discussion - Thursday 20th afternoon session
 
 * 1000 Genomes (2015): A global reference for human genetic variation [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A-global-reference-for-human-genetic-variation__Nature.pdf)
-
 * TCGA Project (2013): The Cancer Genome Atlas Pan-Cancer analysis project [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
-
 * Griffith et al (2015): CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
-
 * Sunyaev (2012): Inferring causality and functional significance of human coding DNA variants [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2012-09-06___Sunyaev__Inferring-causality-and-functional-significance-of-human-coding-DNA-variants__Human_Molecular_Genetics.pdf)
-
 * Freeman et al (2006): Copy number variation: new insights in genome diversity [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2006-06-29___Sunyaev__Copy-number-variation-new-insights-in-genome-diversity__Genome_Research.pdf)
-
 * Deng et al (2017): Comparative genomic analysis of esophageal squamous cell carcinoma between Asian and Caucasian patient populations [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-11-16___Deng__Comparative-genomic-analysis-of-esophageal-squamous-cell-carcinoma-between-Asian-and-Caucasian-patient-populations__Nature_Communications.pdf)
-
 * Zehir et al (2017): Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-05-08___Zehir_et_al.__MSKCC-IMPACT_Panel_Sequencing_more_than_10000_metastatic_cancer_patients__NatMed.pdf)
-
 * Koboldt et al (2012): VarScan 2: Somatic mutation and copy number alteration discovery in cancer by exome sequencing [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2012-02-02___VarScan-2-Somatic-mutation-and-copy-number-alteration-discovery-in-cancer-by-exome-sequencing__Genome_Research.pdf)
