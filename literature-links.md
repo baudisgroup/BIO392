@@ -19,12 +19,9 @@ This page collects items for the course "reading list" (and beyond). Since the r
 
 ### List of papers for Literature review & Discussion - Thursday 20th afternoon session
 
-* 1. 1000 Genomes (2015): A global reference for human genetic variation [PDF]
-(https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A-global-reference-for-human-genetic-variation__Nature.pdf)
+* 1. 1000 Genomes (2015): A global reference for human genetic variation [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A-global-reference-for-human-genetic-variation__Nature.pdf)
 
-* 2. TCGA Project (2013): The Cancer Genome Atlas Pan-Cancer analysis project [PDF]
-(https://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
+* 2. TCGA Project (2013): The Cancer Genome Atlas Pan-Cancer analysis project [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
 
-* 3. CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF]
-(https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
+* 3. CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-07-01___Griffith__CIViC-is-a-community-knowledgebase-for-expert-crowdsourcing-the-clinical-interpretation-of-variants-in-cancer__Nature_Genetics.pdf)
 
