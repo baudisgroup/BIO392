@@ -37,6 +37,12 @@ Conceptually, mornings are predominantly related to introductions, presentations
     * schedule adjustment
     * guidance about course room and computer use (Tina Siegenthaler)
 * 2018-09-19 (Wed), 09-17
+    * reference genome resources
+    * reading:
+        - "Genomics made easier"
+    * exercise: UCSC tutorial
+    * genome editions and coordinates
+    * exercise: genome liftover
 * 2018-09-20 (Thu), 09-17
 * 2018-09-21 (Fri), 09-17
 
