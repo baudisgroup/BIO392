@@ -30,27 +30,39 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 #### Introduction, File Formats & Genome Browsers (Michael Baudis)
 
-* 2018-09-18 (Tue), 13-17
-    * general introduction into the topic ([slides](https://info.baudisgroup.org/assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
-    * schedule adjustment
-    * guidance about course room and computer use (Tina Siegenthaler)
-    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-        - 1000 Genomes paper
-        - The sequence of sequencers paper
-    * [tasks](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-        - Genome Storage Space & Cost
-* 2018-09-19 (Wed), 09-17
-    * reference genome resources
-    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-        - "Genomics made easier"
-        - UCSC genome browser tutorial
-    * exercise: UCSC tutorial
-    * genome editions and coordinates
-    * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-        - segment_liftover article
-    * exercise: genome liftover
-* 2018-09-20 (Thu), 09-17
-* 2018-09-21 (Fri), 09-17
+##### 2018-09-18 (Tue), 13-17
+* general introduction into the topic ([slides](https://info.baudisgroup.org/assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
+* schedule adjustment
+* guidance about course room and computer use (Tina Siegenthaler)
+* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+    - 1000 Genomes paper
+    - The sequence of sequencers paper
+* [tasks](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+    - Genome Storage Space & Cost
+
+##### 2018-09-19 (Wed), 09-17
+* reference genome resources
+* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+    - "Genomics made easier"
+    - UCSC genome browser tutorial
+* exercise: UCSC tutorial
+* genome editions and coordinates
+* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+    - segment_liftover article
+* exercise: genome liftover
+
+##### 2018-09-20 (Thu), 09-17
+* Annotating genome variatnts
+* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+    - HGVS Recommendations
+    - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/)) 
+* Literature review and discussion 
+
+##### 2018-09-21 (Fri), 09-17
+* Associating variants with phenotypes and diseases (focus on cancer ...)
+    - Use of variant databases and annotation tools (CiVIC, OncoKb, ClinGen, ClinVar...)
+* Hands-on analysis of genome data
+    - copy number segmentation tutorial
 
 #### Tools & Programmatic Solutions (Izaskun Mallona)
 
