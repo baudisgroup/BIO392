@@ -45,7 +45,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - "Genomics made easier"
     - UCSC genome browser tutorial
-* exercise: UCSC tutorial
+* exercise: [UCSC tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/UCSC_tutorial.md)
 * genome editions and coordinates
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - segment_liftover article
