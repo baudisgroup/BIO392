@@ -5,7 +5,7 @@
 * For 'Human Assembly', choose 'Feb.2009 (GRCh37/hg19)'
 * Where is the current genomic locations shown?
 * What do the tracks represent? (Hint: move your cursor on the gray box on the left, you will see the description)
-* Play around with the track display options below in the field "Variation". 
+* Play around with the track display options below in the field "Phenotype and Disease Associations" and "Variation and Repeats". 
 * Click on the title of each track, e.g. Common SNPs(150) for documentation.
 * What is defined as "common SNPs"? Which SNPs are shown "green" or "red"?
 
