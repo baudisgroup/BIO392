@@ -66,10 +66,33 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 #### Tools & Programmatic Solutions (Izaskun Mallona)
 
-* 2018-09-25 (Tue), 13-17
-* 2018-09-26 (Wed), 09-17
-* 2018-09-27 (Thu), 09-17
-* 2018-09-28 (Fri), 09-17
+##### 2018-09-25 (Tue), 13-17
+* How are UCSC Genome Browser data stored? Why?
+* Genomics data management: automation
+   - Computer basics: plain text files, Unix terminal
+   - Reproducibility
+   - Systems set up (installing UCSC Genome Browser Kent utils)
+
+##### 2018-09-26 (Wed), 09-17
+* Overview of the standard genomics data formats (I)
+   - FASTA
+   - FASTQ
+   - SAM
+   - BED
+* Basic file processing for bioinformatics
+  - awk, cut
+
+##### 2018-09-27 (Thu), 09-17
+* Overview of the standard genomics data formats (II)
+  - GFF/GTF
+  - BEDgraphs
+  - Wiggle files
+  - VCFs
+* Indexed genomic data formats
+
+##### 2018-09-28 (Fri), 09-17
+* Hands-on andaysis of genome data
+  - Organizing and visualizing a custom trackhub
 
 #### Genome Variants to Modified Proteins (Elif Özkirimli Olmez)
 
