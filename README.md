@@ -31,32 +31,32 @@ Conceptually, mornings are predominantly related to introductions, presentations
 #### Introduction, File Formats & Genome Browsers (Michael Baudis)
 
 ##### 2018-09-18 (Tue), 13-17
-* general introduction into the topic ([slides](https://info.baudisgroup.org/assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
+* general introduction into the topic ([slides](assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
 * schedule adjustment
 * guidance about course room and computer use (Tina Siegenthaler)
-* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+* [reading](literature-links.md):
     - 1000 Genomes paper
     - The sequence of sequencers paper
-* [tasks](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+* [tasks](literature-links.md):
     - Genome Storage Space & Cost
 
 ##### 2018-09-19 (Wed), 09-17
 * reference genome resources
-* [reading](literature-links.html):
+* [reading](literature-links.md):
     - "Genomics made easier"
     - UCSC genome browser tutorial
 * exercise: [UCSC tutorial](assets/UCSC_tutorial.md)
 * genome editions and coordinates
-* [reading](literature-links.html):
+* [reading](literature-links.md):
     - segment_liftover article
 * exercise: genome liftover
 
 ##### 2018-09-20 (Thu), 09-17
 * Annotating genome variants
-* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+* [reading](literature-links.md):
     - HGVS Recommendations (not for details, though)
     - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/))
-    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assets/2018-09-20-BIO392-variant-resources-formats.pdf)
+    - [info slides from the morning session](assets/2018-09-20-BIO392-variant-resources-formats.pdf)
 * Literature review and discussion
 
 ##### 2018-09-21 (Fri), 09-17
