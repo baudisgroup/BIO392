@@ -24,7 +24,7 @@ One of the fastest growing areas of bioinformatics is in the analysis, warehousi
 
 The course schedule consists of 1 afternoon (Tuesday) and 3 "full" days (Wednesday - Friday) in the first two weeks, with 1.5 days in the last week.
 
-The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30. 
+The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30.
 
 Conceptually, mornings are predominantly related to introductions, presentations and discussion of the previous days, and are afternoons reserved for independent  work on the examples and tasks.
 
@@ -52,11 +52,12 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * exercise: genome liftover
 
 ##### 2018-09-20 (Thu), 09-17
-* Annotating genome variatnts
+* Annotating genome variants
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - HGVS Recommendations (not for details, though)
-    - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/)) 
-* Literature review and discussion 
+    - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/))
+    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assts/2018-09-20-BIO392-variant-resources-formats.pdf)
+* Literature review and discussion
 
 ##### 2018-09-21 (Fri), 09-17
 * Associating variants with phenotypes and diseases (focus on cancer ...)
