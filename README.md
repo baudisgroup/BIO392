@@ -42,12 +42,12 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 ##### 2018-09-19 (Wed), 09-17
 * reference genome resources
-* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+* [reading](literature-links.html):
     - "Genomics made easier"
     - UCSC genome browser tutorial
-* exercise: [UCSC tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/UCSC_tutorial.md)
+* exercise: [UCSC tutorial](assets/UCSC_tutorial.md)
 * genome editions and coordinates
-* [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
+* [reading](literature-links.html):
     - segment_liftover article
 * exercise: genome liftover
 
