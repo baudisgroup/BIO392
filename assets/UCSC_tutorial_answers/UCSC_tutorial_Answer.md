@@ -63,4 +63,4 @@ __Answer__:
 * Turn on the UCSC Genes and SNPs (130) tracks (This older version works because we are on hg18).
 * Zoom out 10X a few times and observe the tracks
 * What are the overlapping sequences? What are the red lines?
-__Answer__: They are sequencing reads. Red lines are mis-alignments to the reference genome in UCSC.
+__Answer__: They are sequencing reads. Red lines are mis-alignments to the reference genome in UCSC. They can be SNPs (some do exist already in the dbSNP records) or sometimes sequencing errors.

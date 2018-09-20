@@ -54,7 +54,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 ##### 2018-09-20 (Thu), 09-17
 * Annotating genome variatnts
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-    - HGVS Recommendations
+    - HGVS Recommendations (not for details, though)
     - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/)) 
 * Literature review and discussion 
 
