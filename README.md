@@ -62,7 +62,8 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 ##### 2018-09-21 (Fri), 09-17
 * Associating variants with phenotypes and diseases (focus on cancer ...)
-    - Use of variant databases and annotation tools (CiVIC, OncoKb, ClinGen, ClinVar...)
+    - Use of variant databases and annotation tools (CiVIC, OncoKb, ClinGen, arrayMap...)
+* [info slides from the morning session](2018-09-21-BIO392-variant-resources-arraymap.pdf)
 * Hands-on analysis of genome data
     - [copy number segmentation tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/DNAcopy_segmentation.r) [Reference publication](https://internal.baudisgroup.org/assets/articles_and_presentations/2004-10-01___Olshen___Circular_binary_segmentation_for_the_analysis_of_array_based_DNA_copy_number_data.pdf)
     - [plink tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
