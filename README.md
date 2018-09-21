@@ -57,7 +57,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - HGVS Recommendations (not for details, though)
     - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/))
-    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assts/2018-09-20-BIO392-variant-resources-formats.pdf)
+    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assets/2018-09-20-BIO392-variant-resources-formats.pdf)
 * Literature review and discussion
 
 ##### 2018-09-21 (Fri), 09-17
