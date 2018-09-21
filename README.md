@@ -57,15 +57,16 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - HGVS Recommendations (not for details, though)
     - dbVar "Overview of Structural Variation" ([link](https://www.ncbi.nlm.nih.gov/dbvar/content/overview/))
-    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assts/2018-09-20-BIO392-variant-resources-formats.pdf)
+    - [info slides from the morning session](https://baudisgroup.github.io/BIO392-Github/assets/2018-09-20-BIO392-variant-resources-formats.pdf)
 * Literature review and discussion
 
 ##### 2018-09-21 (Fri), 09-17
 * Associating variants with phenotypes and diseases (focus on cancer ...)
     - Use of variant databases and annotation tools (CiVIC, OncoKb, ClinGen, ClinVar...)
 * Hands-on analysis of genome data
-    - [copy number segmentation tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/DNAcopy_segmentation.r)
+    - [copy number segmentation tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/DNAcopy_segmentation.r) [Reference publication](https://internal.baudisgroup.org/assets/articles_and_presentations/2004-10-01___Olshen___Circular_binary_segmentation_for_the_analysis_of_array_based_DNA_copy_number_data.pdf)
     - [plink tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
+    - variant <-> disease mapping exercise
 
 #### Tools & Programmatic Solutions (Izaskun Mallona)
 
