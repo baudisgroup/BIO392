@@ -28,7 +28,7 @@ The "full days" run from 09:00 - 17:00, with a break from 12:00 - 13:30.
 
 Conceptually, mornings are predominantly related to introductions, presentations and discussion of the previous days, and are afternoons reserved for independent  work on the examples and tasks.
 
-#### Introduction, File Formats & Genome Browsers (Michael Baudis)
+#### Introduction, File Formats & Genome Browsers ([Michael Baudis](https://www.imls.uzh.ch/en/research/baudis/))
 
 ##### 2018-09-18 (Tue), 13-17
 * general introduction into the topic ([slides](https://info.baudisgroup.org/assets/articles_and_presentations/2018-09-18___Michael_Baudis__BIO392-Introduction-Variants__slides.pdf))
@@ -69,7 +69,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
     - [plink tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
     - variant <-> disease mapping exercise
 
-#### Tools & Programmatic Solutions (Izaskun Mallona)
+#### Tools & Programmatic Solutions ([Izaskun Mallona](https://www.dmmd.uzh.ch/en/research/baubec/groupmembers/imallona.html))
 
 ##### 2018-09-25 (Tue), 13-17
 * How are UCSC Genome Browser data stored? Why?
@@ -99,7 +99,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * Hands-on andaysis of genome data
   - Organizing and visualizing a custom trackhub
 
-#### Genome Variants to Modified Proteins (Elif Özkirimli Olmez)
+#### Genome Variants to Modified Proteins ([Elif Ozkirimli Olmez](http://www.biochem-caflisch.uzh.ch/members/Ozkirimli/Elif))
 
 * 2018-10-02 (Tue), 13-17
 * 2018-10-03 (Wed), 09-17
