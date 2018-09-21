@@ -11,6 +11,7 @@ This page collects items for the course "reading list" (and beyond). Since the r
 * 1000 Genomes [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-10-01___1000-Genomes-Consortium__A%20global-reference-for-human-genetic-variation__Nature.pdf)
 * Evans et al: Finding the Rare Pathogenic Variants in a Human Genome [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2017-05-09___Evans__Clinical_genome_sequencing__JAMA_comment.pdf)
 * TCGA Project - The Cancer Genome Atlas Pan Cancer analysis project - Nature Genetics [PDF](http://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
+* den Dunnen and Antonorakis (2000): Mutation Nomenclature Extensions (i.e. "HGVS") - [pdf](2000-01-01___den_Dunnen_and_Antonorakis__Mutation-Nomenclature-Extensions__Human_Mutation.pdf)
 * den Dunnen et al. (2016): HGVS Nomenclature Update [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2016-03-02___Dunnen_et_al.__HGVS%20Recommendations_2016-Update__Human_Mutation.pdf)
 
 ### Literature review & Discussion - Thursday 20th afternoon session
