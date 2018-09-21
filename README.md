@@ -67,7 +67,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * Hands-on analysis of genome data
     - [copy number segmentation tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/DNAcopy_segmentation.r) [Reference publication](https://internal.baudisgroup.org/assets/articles_and_presentations/2004-10-01___Olshen___Circular_binary_segmentation_for_the_analysis_of_array_based_DNA_copy_number_data.pdf)
     - [plink tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
-    - variant <-> disease mapping exercise
+    - [variant <-> disease mapping exercise](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/variant_diseases_session.pdf)
 
 #### Tools & Programmatic Solutions ([Izaskun Mallona](https://www.dmmd.uzh.ch/en/research/baubec/groupmembers/imallona.html))
 
