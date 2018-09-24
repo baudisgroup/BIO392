@@ -93,7 +93,7 @@ bedtools --help
 
 ```
 
-# Exercise 1
+## Exercise 1
 
 Find the number of lines of the file `~/course/data/example.bed`
 
@@ -110,7 +110,7 @@ wc -l ~/course/data/example.bed
 </details>
 
 
-# Exercise 2
+## Exercise 2
 
 Get the manual page of `head`, what is this command for?
 
@@ -124,7 +124,7 @@ man head
 </p>
 </details>
 
-# Exercise 3
+## Exercise 3
 
 Get the first 5 lines of the file `~/course/data/example.bed`
 
@@ -138,7 +138,7 @@ head -5 ~/course/data/example.bed
 </p>
 </details>
 
-# Exercise 4
+## Exercise 4
 
 Using pipes (`|`): chain the `head -5` command before with  `wc -l` to make sure the number of lines was as expected (5).
 
@@ -426,7 +426,7 @@ awk 'NR % 2 == 1' example.fa | wc -l
 
 ## Exercise 15
 
-Download the compressed SAM data from ` https://github.com/samtools/samtools/raw/develop/examples/ex1.sam.gz`,  uncompress (it is a .gz to be uncompressed with `gunzip`) and inspect it.
+Download the compressed SAM data from ` https://github.com/samtools/samtools/raw/develop/examples/ex1.sam.gz`,  uncompress (`.gz` files need to be uncompressed with `gunzip`) and inspect it.
 
 <details><summary>
 Answer
@@ -444,4 +444,99 @@ head ex1.sam
 ```
 </p>
 </details>
+
+# BEDtools
+
+Read the [BEDtools paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824/)
+
+## Exercise 16
+
+Use [bedtools intersect](http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#intersect) to find overlapping genomic features.
+
+The bedtools sourcecode we compiled contains example datasets, i.e. at `~/course/soft/bedtools2/test/intersect/`.
+
+Check the `~/course/soft/bedtools2/test/intersect/a.bed` and `~/course/soft/bedtools2/test/intersect/b.bed` files content. Are they BED3, BED6 or BED12 files?
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+cat ~/course/soft/bedtools2/test/intersect/a.bed
+cat ~/course/soft/bedtools2/test/intersect/b.bed
+```
+</p>
+</details>
+
+## Exercise 17
+
+What will happen if you intersect those files? For example, the `a.bed` region chr1:100-200 overlaps with `b.bed`
+
+```bash
+alias bedtools='~/course/soft/bedtools2/bin/bedtools'
+
+bedtools intersect \
+  -a  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -b  ~/course/soft/bedtools2/test/intersect/b.bed
+
+```
+
+Which is the format of the output? How are results interpreted?
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+The output is a direct intersect:
+
+```bash
+chr1	100	101	a2	2	-
+chr1	100	110	a2	2	-
+```
+
+Starting from the original interval from a.bed:
+
+```bash
+chr1        100     200     a2      2       -
+
+```
+
+And the overlapping intervals from b.bed:
+
+```bash
+chr1        90      101     b2      2       -
+chr1        100     110     b3      3       +
+```
+</p>
+</details>
+
+## Exercise 18
+
+What does it happen if running `bedtools intersect` with the `a.bed` file as `-b` and the `b.bed` file as `-a`?
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+
+bedtools intersect \
+  -b  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -a  ~/course/soft/bedtools2/test/intersect/b.bed
+```
+Tip: check the strands
+</p>
+</details>
+
+
+
+
+## Exercise 19
+
+Explore (not necessarily run) usage examples with biological meaning using UNIX and BEDTools [http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/](http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/).
+
 
