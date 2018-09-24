@@ -157,14 +157,13 @@ head -5 ~/course/data/example.bed | wc -l
 
 # FASTQ/A Exercises
 
-DISCLAIMER: data is based upon the Genome Analysis Workshop (MOLB 7621) Course on genome analysis at the University of Colorado SOM at [https://github.com/MOLB7621](https://github.com/MOLB7621)
+DISCLAIMER: data is based upon the beautiful Genome Analysis Workshop (MOLB 7621) Course on genome analysis at the University of Colorado SOM at [https://github.com/MOLB7621](https://github.com/MOLB7621)
 
 ## Exercise 5
 
 Retrieve the data for these exercises (mind the path you're working at, should be `~/course/data`).
 
 The path for URL for the data is https://molb7621.github.io/workshop/_downloads/SP1.fq
-
 
 
 <details><summary>
@@ -185,8 +184,9 @@ curl -L https://molb7621.github.io/workshop/_downloads/SP1.fq  \
 
 ##  Exercise 6
 
-Inspect the file from the previous exercise (file size, number of lines, and visualize its head)
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
 
+Inspect the file from the previous exercise (file size, number of lines, and visualize its head)
 
 
 <details><summary>
@@ -208,4 +208,240 @@ head SP1.fq
 
 ## Exercise 7
 
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
+
+The FASTQ file stored at `~/course/data/SP1.fq` is in [FASTQ](https://en.wikipedia.org/wiki/FASTQ_format) format, meaning it contains 4 lines per read sequence. 
+
+```bash
+head -n 4 SP1.fq
+```
+
+produces
+
+```
+@cluster_2:UMI_ATTCCG
+TTTCCGGGGCACATAATCTTCAGCCGGGCGC
++
+9C;=;=<9@4868>9:67AA<9>65<=>591
+```
+
+* So Line 1 contains a sequence identifier that begins with an `@`
+* Line 2 contains the read sequence (A,T,C,G,N) 
+* Line 3 is a comment line, often unused and only contains a `+` 
+* Line 4 is the Phred quality score for each sequence encoded in ASCII format 
+
+First use ``wc`` and ``awk`` to determine the number of *sequences* in the fastq 
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+cd ~/course/data/
+wc -l SP1.fq  # total number of lines
+wc -l SP1.fq | awk '{print $1 / 4}' # total number of fastq records
+
+```
+</p>
+</details>
+
+## Exercise 8
+
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
+
+A common mistake is to use ``grep`` to pattern match the ``@`` in the
+sequence identifier. Why doesn't this work?
+
+```bash
+wc -l SP1.fq | awk '{print $1 / 4}'
+```
+renders `250`
+
+```bash
+grep -c "@" SP1.fq
+```
+renders `459`.
+<details><summary>
+Answer
+</summary>
+
+<p>
+`@` is a valid quality score, so lines of phred scores will be counted as well when using grep
+</p>
+</details>
+
+## Exercise 9
+
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
+
+Next, extract out the read *sequences* from the fastq. This is a bit
+complicated as we need to only pull out the second line from each record. 
+
+One approach to this problem is to use the ``%`` `modulo
+operator` ([Wikipedia](https://en.wikipedia.org/wiki/Modulo_operation)), which returns
+the remainder after division of two integers. For example using ``awk``
+
+```bash
+awk 'BEGIN { {print 4 % 2}}'
+awk 'BEGIN { {print 4 % 3}}'
+awk 'BEGIN { {print 5 % 3}}'
+awk 'BEGIN { {print 1 % 4}}'
+```
+
+In ``awk`` there is a special variable ``NR`` which is equal to the
+current line number.
+
+## Exercise 10
+
+Print the line numbers of the file `SP1.fq`
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+awk '{print NR}' ~/course/data/SP1.fq
+```
+</p>
+</details>
+
+
+We can also prepend the line number to the FASTQ file
+
+```bash
+awk '{print NR, $0 }' SP1.fq | head # note output in first column
+
+```
+
+## Exercise 11
+
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
+
+We can use the modulo operator with ``NR`` to only capture specific
+records from the fastq
+
+
+```bash
+
+awk 'NR % 4 == 1' SP1.fq | head  # get header line
+awk 'NR % 4 == 2' SP1.fq | head  # get sequence line
+awk 'NR % 4 == 3' SP1.fq | head  # get comment line
+awk 'NR % 4 == 0' SP1.fq | head  # get quality line
+```
+
+<!-- ## Exercise 12 -->
+
+
+<!-- Now that we can isolate only the sequences let's use `sort` and `uniq` to -->
+<!-- find common sequences.  -->
+
+<!-- ```bash -->
+
+<!-- awk 'NR % 4 == 2' SP1.fq \  # get sequences -->
+<!--       | sort \  # sort the sequences  -->
+<!--       | uniq -c \ # report number of occurances of each unique sequence -->
+<!--       | head  -->
+      
+<!-- #show most frequent sequences -->
+      
+<!-- awk 'NR % 4 == 2' SP1.fq \  -->
+<!--       | sort \ -->
+<!--       | uniq -c \ -->
+<!--       | sort -k1,1nr \ # reverse sort to rank by most common sequence -->
+<!--       | head -->
+<!-- ``` -->
+
+
+## Exercise 12
+
+(Source: [MOLB7621](https://molb7621.github.io/workshop/Syllabus.html))
+
+FASTA format is a more compact sequence format than FASTQ
+
+```bash
+>sequence_identifier_1
+ATCGTCGATGCTAGTCGA
+>sequence_identifier_2
+AGCTAGCTAGCTAGC
+```
+
+Convert fastq to fasta (tip: use lines 1 and 2)
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+awk 'NR % 4 == 1 {print ">"$1}; 
+     NR % 4 == 2 {print}' SP1.fq \
+     | head 
+```
+</p>
+</details>
+
+
+## Exercise 13
+
+Save the SP1 sequences as a file in fasta format (named `~/course/data/example.fa`)
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+awk 'NR % 4 == 1 {print ">"$1}; 
+     NR % 4 == 2 {print}' SP1.fq \
+     > ~/course/data/example.fa
+```
+</p>
+</details>
+
+
+## Exercise 14
+
+Make sure the number of sequences is the same in both fastq and fasta files
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+awk 'NR % 4 == 1' SP1.fq | wc -l
+awk 'NR % 2 == 1' example.fa | wc -l
+
+```
+</p>
+</details>
+
+
+# SAM format
+
+## Exercise 15
+
+Download the compressed SAM data from ` https://github.com/samtools/samtools/raw/develop/examples/ex1.sam.gz`,  uncompress (it is a .gz to be uncompressed with `gunzip`) and inspect it.
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+```bash
+cd ~/course/data
+
+curl -L https://github.com/samtools/samtools/raw/develop/examples/ex1.sam.gz \
+  > ex1.sam.gz
+
+gunzip ex1.sam.gz
+head ex1.sam
+```
+</p>
+</details>
 
