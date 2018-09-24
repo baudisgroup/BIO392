@@ -74,7 +74,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [SIB Swiss Institute of Bioinformatics tutorial on UNIX](https://edu.sib.swiss/pluginfile.php/2878/mod_resource/content/4/couselab-html/content.html)
 * [Unix slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/1_unix.pdf)
 * [Genomic formats slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/2_genomics.pdf)
-* [Exercises](https://baudisgroup.github.io/BIO392-Github/assets/imallona/3_exercises.md)
+* [Exercises](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/imallona/3_exercises.md)
 
 ##### 2018-09-25 (Tue), 13-17
 * How are UCSC Genome Browser data stored? Why?
