@@ -12,7 +12,7 @@ Setting up a working directory with folders
 
 
 ```bash
-cd  # goes to the home directory
+cd ~ # goes to the home directory
 mkdir -p course
 ls -l course
 
@@ -303,6 +303,7 @@ Answer
 </summary>
 
 <p>
+
 ```bash
 awk '{print NR}' ~/course/data/SP1.fq
 ```
@@ -377,7 +378,9 @@ Answer
 </summary>
 
 <p>
+
 ```bash
+
 awk 'NR % 4 == 1 {print ">"$1}; 
      NR % 4 == 2 {print}' SP1.fq \
      | head 
@@ -395,7 +398,9 @@ Answer
 </summary>
 
 <p>
+
 ```bash
+
 awk 'NR % 4 == 1 {print ">"$1}; 
      NR % 4 == 2 {print}' SP1.fq \
      > ~/course/data/example.fa
@@ -413,6 +418,7 @@ Answer
 </summary>
 
 <p>
+
 ```bash
 awk 'NR % 4 == 1' SP1.fq | wc -l
 awk 'NR % 2 == 1' example.fa | wc -l
@@ -433,6 +439,7 @@ Answer
 </summary>
 
 <p>
+
 ```bash
 cd ~/course/data
 
@@ -462,7 +469,9 @@ Answer
 </summary>
 
 <p>
+
 ```bash
+
 cat ~/course/soft/bedtools2/test/intersect/a.bed
 cat ~/course/soft/bedtools2/test/intersect/b.bed
 ```
@@ -489,9 +498,11 @@ Answer
 </summary>
 
 <p>
+
 The output is a direct intersect:
 
 ```bash
+
 chr1	100	101	a2	2	-
 chr1	100	110	a2	2	-
 ```
@@ -509,6 +520,7 @@ And the overlapping intervals from b.bed:
 chr1        90      101     b2      2       -
 chr1        100     110     b3      3       +
 ```
+
 </p>
 </details>
 
@@ -522,12 +534,14 @@ Answer
 </summary>
 
 <p>
+
 ```bash
 
 bedtools intersect \
   -b  ~/course/soft/bedtools2/test/intersect/a.bed \
   -a  ~/course/soft/bedtools2/test/intersect/b.bed
 ```
+
 Tip: check the strands
 </p>
 </details>
