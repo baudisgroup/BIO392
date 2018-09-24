@@ -71,14 +71,27 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 #### Tools & Programmatic Solutions ([Izaskun Mallona](https://www.dmmd.uzh.ch/en/research/baubec/groupmembers/imallona.html))
 
+* [SIB Swiss Institute of Bioinformatics tutorial on UNIX](https://edu.sib.swiss/pluginfile.php/2878/mod_resource/content/4/couselab-html/content.html)
+* [Unix slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/1_unix.pdf)
+* [Genomic formats slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/2_genomics.pdf)
+* [Exercises](https://baudisgroup.github.io/BIO392-Github/assets/imallona/3_exercises.md)
+
 ##### 2018-09-25 (Tue), 13-17
 * How are UCSC Genome Browser data stored? Why?
 * Genomics data management: automation
    - Computer basics: plain text files, Unix terminal
    - Reproducibility
-   - Systems set up (installing UCSC Genome Browser Kent utils)
+   - Systems set up (data download and software installs)
 
 ##### 2018-09-26 (Wed), 09-17
+* Unix for bioinformatics
+   - Chapter 1: What is UNIX
+   - Chapter 2: The UNIX filesystem
+   - Chapter 3: UNIX shell - first steps
+   - Chapter 4: UNIX shell - filesystem commands
+   - Chapter 5: UNIX shell - working with files
+   
+##### 2018-09-27 (Thu), 09-17
 * Overview of the standard genomics data formats (I)
    - FASTA
    - FASTQ
@@ -87,17 +100,14 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * Basic file processing for bioinformatics
   - awk, cut
 
-##### 2018-09-27 (Thu), 09-17
+##### 2018-09-28 (Fri), 09-17
 * Overview of the standard genomics data formats (II)
   - GFF/GTF
   - BEDgraphs
   - Wiggle files
   - VCFs
 * Indexed genomic data formats
-
-##### 2018-09-28 (Fri), 09-17
-* Hands-on andaysis of genome data
-  - Organizing and visualizing a custom trackhub
+* Organizing and visualizing a custom trackhub
 
 #### Genome Variants to Modified Proteins ([Elif Ozkirimli Olmez](http://www.biochem-caflisch.uzh.ch/members/Ozkirimli/Elif))
 
