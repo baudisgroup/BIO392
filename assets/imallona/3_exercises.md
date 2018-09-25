@@ -546,11 +546,90 @@ Tip: check the strands
 </p>
 </details>
 
-
-
-
 ## Exercise 19
 
-Explore (not necessarily run) usage examples with biological meaning using UNIX and BEDTools [http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/](http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/).
+Run bedtools intersect with the `a.bed` file as `-a`,  the `b.bed` file as `-b` but forcing strandness, i.e. reporting hits in B that overlap A on the same strand
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+bedtools intersect \
+  -s \
+  -a  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -b  ~/course/soft/bedtools2/test/intersect/b.bed
+```
+  
+</p>
+</details>
+
+## Exercise 20
+
+Use the `-v` to report those intervals in `a.bed` that do not overlap any of the intervals in `b.bed`.
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+bedtools intersect \
+  -v \
+  -a  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -b  ~/course/soft/bedtools2/test/intersect/b.bed
+```
+  
+</p>
+</details>
+
+
+## Exercise 21
+
+
+Use the `-wao` flag to report the amounts of overlap for all features when comparing `a.bed` and `b.bed`, including those that do not overlap. How are non overlaps encoded? Which strand are they on?
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+bedtools intersect \
+  -wao \
+  -a  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -b  ~/course/soft/bedtools2/test/intersect/b.bed
+```
+
+</p>
+</details>
+
+
+## Exercise n-1
+
+Play with real genomic data using the [BEDtools tutorial](http://quinlanlab.org/tutorials/bedtools/bedtools.html).
+
+Mind that the tutorial recommends creating a folder with `mkdir -p ~/workspace/monday/bedtools`: if you do so and move (`mv`) there, your path (the one you can get using `pwd`) won't be at the standard `~/course` we used till now.
+
+Some of the puzzles include:
+
+* Create a BED file representing all of the intervals in the genome that are NOT exonic.
+* What is the average distance from GWAS SNPs to the closest exon? (Hint - have a look at the closest tool.)
+* Count how many exons occur in each 500kb interval (“window”) in the human genome. (Hint - have a look at the makewindows tool.)
+* Are there any exons that are completely overlapped by an enhancer? If so, how many?
+* What fraction of the GWAS SNPs are exonic?
+
+
+## Exercise n
+
+Explore (not necessarily run) more usage examples with biological meaning using UNIX and BEDTools [http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/](http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/).
 
 
