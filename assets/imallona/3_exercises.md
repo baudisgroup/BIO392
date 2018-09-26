@@ -4,6 +4,11 @@ Please run the tutorial at [SIB Course on UNIX](https://edu.sib.swiss/pluginfile
 
 (Mind that we are running MacOS and not GNU/Linux)
 
+For extra/advanced reading, please check the following tutorials on bash and awk:
+
+* [Shell](http://www.grymoire.com/Unix/Sh.html)
+* [Awk](http://www.grymoire.com/Unix/Awk.html)
+
 # Set up
 
 ## Folders
