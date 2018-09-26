@@ -280,6 +280,15 @@ Answer
 Next, extract out the read *sequences* from the fastq. This is a bit
 complicated as we need to only pull out the second line from each record. 
 
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+
 One approach to this problem is to use the ``%`` `modulo
 operator` ([Wikipedia](https://en.wikipedia.org/wiki/Modulo_operation)), which returns
 the remainder after division of two integers. For example using ``awk``
@@ -293,6 +302,18 @@ awk 'BEGIN { {print 1 % 4}}'
 
 In ``awk`` there is a special variable ``NR`` which is equal to the
 current line number.
+
+So let's extract the sequences of the fasta file `SP1.fq`
+
+
+```bash
+
+awk 'NR%4==2'   ~/course/data/SP1.fq
+
+```
+
+</p>
+</details>
 
 ## Exercise 10
 
@@ -311,7 +332,7 @@ awk '{print NR}' ~/course/data/SP1.fq
 </details>
 
 
-We can also prepend the line number to the FASTQ file
+We can also prepend the line number to the FASTQ file (please note we asume `SP1.fq` is on the working directory)
 
 ```bash
 awk '{print NR, $0 }' SP1.fq | head # note output in first column
