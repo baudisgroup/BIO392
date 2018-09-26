@@ -4,6 +4,11 @@ Please run the tutorial at [SIB Course on UNIX](https://edu.sib.swiss/pluginfile
 
 (Mind that we are running MacOS and not GNU/Linux)
 
+For extra/advanced reading, please check the following tutorials on bash and awk:
+
+* [Shell](http://www.grymoire.com/Unix/Sh.html)
+* [Awk](http://www.grymoire.com/Unix/Awk.html)
+
 # Set up
 
 ## Folders
@@ -473,11 +478,97 @@ head ex1.sam
 </p>
 </details>
 
+## Exercise 16
+
+<!-- bed6 to bed3 -->
+
+Transform the file `~/course/soft/bedtools2/test/intersect/a.bed` (BED6) to BED3 (tip: use awk to extract the first three columns).
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+## to go to the a.bed file directory
+cd ~/course/soft/bedtools2/test/intersect/
+
+awk -v OFS='\t' '{print $1,$2,$3}' a.bed
+
+cd - ## to go back to the previous directory
+
+```
+</p>
+</details>
+
+
+## Exercise 17
+
+Transform the BED3 file ` ~/course/soft/bedtools2/test/intersect/recordsOutOfOrder.bed` to BED6 (unspecified strand, 0 score)
+
+Tip: check the [BED6 file specification](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+## to go to the a.bed file directory
+cd ~/course/soft/bedtools2/test/intersect/
+
+awk -v OFS='\t' '{print $1,$2,$3,".",0,"."}' \
+  recordsOutOfOrder.bed
+
+cd - ## to go back to the previous directory
+
+```
+</p>
+</details>
+
+
+## Exercise 18
+
+Add a nucleotide to the start and subtract a nucleotide to the end to all records, regardless of the strand, to the file `~/course/soft/bedtools2/test/intersect/a.bed`.
+
+Tip: use awk.
+
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+## to go to the a.bed file directory
+cd ~/course/soft/bedtools2/test/intersect/
+
+awk -v OFS='\t' '{print $1,$2-1,$3+1,$4,$5,$6}' a.bed
+
+cd - ## to go back to the previous directory
+
+```
+</p>
+</details>
+
+
+
+<!-- awk half open etc -->
+
+
 # BEDtools
 
 Read the [BEDtools paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824/)
 
-## Exercise 16
+## Exercise 19
 
 Use [bedtools intersect](http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#intersect) to find overlapping genomic features.
 
@@ -499,7 +590,7 @@ cat ~/course/soft/bedtools2/test/intersect/b.bed
 </p>
 </details>
 
-## Exercise 17
+## Exercise 20
 
 What will happen if you intersect those files? For example, the `a.bed` region chr1:100-200 overlaps with `b.bed`
 
@@ -545,7 +636,7 @@ chr1        100     110     b3      3       +
 </p>
 </details>
 
-## Exercise 18
+## Exercise 21
 
 What does it happen if running `bedtools intersect` with the `a.bed` file as `-b` and the `b.bed` file as `-a`?
 
@@ -567,7 +658,7 @@ Tip: check the strands
 </p>
 </details>
 
-## Exercise 19
+## Exercise 22
 
 Run bedtools intersect with the `a.bed` file as `-a`,  the `b.bed` file as `-b` but forcing strandness, i.e. reporting hits in B that overlap A on the same strand
 
@@ -588,7 +679,7 @@ bedtools intersect \
 </p>
 </details>
 
-## Exercise 20
+## Exercise 23
 
 Use the `-v` to report those intervals in `a.bed` that do not overlap any of the intervals in `b.bed`.
 
@@ -611,7 +702,7 @@ bedtools intersect \
 </details>
 
 
-## Exercise 21
+## Exercise 24
 
 
 Use the `-wao` flag to report the amounts of overlap for all features when comparing `a.bed` and `b.bed`, including those that do not overlap. How are non overlaps encoded? Which strand are they on?
