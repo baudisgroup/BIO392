@@ -4,10 +4,15 @@ Please run the tutorial at [SIB Course on UNIX](https://edu.sib.swiss/pluginfile
 
 (Mind that we are running MacOS and not GNU/Linux)
 
+Cheatsheets:
+
+* [Shell](https://files.fosswire.com/2007/08/fwunixref.pdf)
+* [awk](https://gist.github.com/Rafe/3102414)
+
 For extra/advanced reading, please check the following tutorials on bash and awk:
 
 * [Shell](http://www.grymoire.com/Unix/Sh.html)
-* [Awk](http://www.grymoire.com/Unix/Awk.html)
+* [awk](http://www.grymoire.com/Unix/Awk.html)
 
 # Set up
 
@@ -478,6 +483,8 @@ head ex1.sam
 </p>
 </details>
 
+# BED format
+
 ## Exercise 16
 
 <!-- bed6 to bed3 -->
@@ -536,9 +543,7 @@ cd - ## to go back to the previous directory
 
 Add a nucleotide to the start and subtract a nucleotide to the end to all records, regardless of the strand, to the file `~/course/soft/bedtools2/test/intersect/a.bed`.
 
-Tip: use awk.
-
-
+Tip: use `awk`.
 
 <details><summary>
 Answer
@@ -564,15 +569,12 @@ cd - ## to go back to the previous directory
 <!-- awk half open etc -->
 
 
-# BEDtools
-
-Read the [BEDtools paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824/)
-
 ## Exercise 19
 
-Use [bedtools intersect](http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#intersect) to find overlapping genomic features.
 
-The bedtools sourcecode we compiled contains example datasets, i.e. at `~/course/soft/bedtools2/test/intersect/`.
+Use [bedtools intersect](http://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#intersect) to find overlapping genomic features. The [BEDtools paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2832824/) is also very helpful to understand the genomic arithmetics analysis (without sequences, using coordinates).
+
+For this and the next exercises we use some example datasets from the bedtools sourcecode we compiled in one of the first activities. For instance, you could check them i.e. at `~/course/soft/bedtools2/test/intersect/`.
 
 Check the `~/course/soft/bedtools2/test/intersect/a.bed` and `~/course/soft/bedtools2/test/intersect/b.bed` files content. Are they BED3, BED6 or BED12 files?
 
@@ -723,6 +725,139 @@ bedtools intersect \
 
 </p>
 </details>
+
+
+# VCF
+
+## Exercise 25
+
+Install an old version of VCFtools (disclaimer, this is old! you should install an up-to-date verson for handling your data) you can download from `https://sourceforge.net/projects/vcftools/files/vcftools_0.1.13.tar.gz/download` using `make`. The path you can choose, but you can use for instance `~/course/soft/`.
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+cd ~/course/soft/
+
+curl -L https://sourceforge.net/projects/vcftools/files/vcftools_0.1.13.tar.gz/download > \
+   vcftools.tar.gz
+
+tar xzvf vcftools.tar.gz
+
+cd vcftools_0.1.13/
+
+make
+
+```
+
+</p>
+</details>
+
+
+## Exercise 26
+
+Check which is the current version of VCFtools and how should installation be carried out.
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+Git repository at [https://github.com/vcftools/vcftools](https://github.com/vcftools/vcftools)
+
+There is a tag named v0.1.16 (as for the 26th Sept 2018) [https://github.com/vcftools/vcftools/releases](https://github.com/vcftools/vcftools/releases)
+
+</p>
+</details>
+
+
+## Exercise 27
+
+VCFtools has some data for testing purposes; find all the VCF files (filenames similar to `*vcf*`) that you downloaded during installation.
+
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+find ~/course/soft/vcftools_0.1.13 -name "*vcf" -type f
+
+```
+
+</p>
+</details>
+
+## Exercise 28
+
+Alias the vcftool binary (full path) to `vcftools` and then run it with no parameters
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+alias vcftools='~/course/soft/vcftools_0.1.13/bin/vcftools'
+vcftools
+
+```
+
+Should render
+
+```
+
+
+VCFtools (v0.1.13)
+© Adam Auton and Anthony Marcketta 2009
+
+Process Variant Call Format files
+
+For a list of options, please go to:
+	https://vcftools.github.io/examples.html
+
+Questions, comments, and suggestions should be emailed to:
+	vcftools-help@lists.sourceforge.net
+
+```
+
+</p>
+</details>
+
+
+## Exercise 29
+
+How many variants are kept after filtering at `~/course/soft/vcftools_0.1.13/examples/merge-test-a.vcf`? Tip: use the `--vcf` flag to `vcftools`. What does this result mean?
+
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+vcftools --vcf ~/course/soft/vcftools_0.1.13/examples/merge-test-a.vcf
+
+```
+
+
+</p>
+</details>
+
 
 
 ## Exercise n-1
