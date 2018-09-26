@@ -107,7 +107,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
   - Wiggle files
   - VCFs
 * Indexed genomic data formats
-* Organizing and visualizing a custom trackhub
+* Exercises
 
 #### Genome Variants to Modified Proteins ([Elif Ozkirimli Olmez](http://www.biochem-caflisch.uzh.ch/members/Ozkirimli/Elif))
 
