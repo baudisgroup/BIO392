@@ -636,16 +636,78 @@ bedtools intersect \
 
 ## Exercise n-1
 
-Play with real genomic data using the [BEDtools tutorial](http://quinlanlab.org/tutorials/bedtools/bedtools.html).
+Play with real genomic data using the [BEDtools tutorial](http://quinlanlab.org/tutorials/bedtools/bedtools.html) which explores the Maurano et al paper [Systematic Localization of Common Disease-Associated Variation in Regulatory DNA published in Science, 2012](https://www.ncbi.nlm.nih.gov/pubmed/22955828).
 
 Mind that the tutorial recommends creating a folder with `mkdir -p ~/workspace/monday/bedtools`: if you do so and move (`mv`) there, your path (the one you can get using `pwd`) won't be at the standard `~/course` we used till now.
 
+Remember that the bedtools binary can be aliased using ``alias bedtools='~/course/soft/bedtools2/bin/bedtools'``.
+
 Some of the puzzles include:
 
+* Count the number of exons and CpG islands
+
+<details><summary>
+Tip
+</summary>
+
+<p>
+
+```bash
+
+Count the number of lines using `wc -l exons.bed` etc.
+
+```
+
+</p>
+</details>
+
+* How many CpG islands overlap exons in the genome?
+
+
+<details><summary>
+Tip
+</summary>
+
+<p>
+
+
+Intersect and count
+
+```bash
+
+bedtools intersect -a cpg.bed -b exons.bed   | wc -l
+
+
+```
+
+</p>
+</details>
+
 * Create a BED file representing all of the intervals in the genome that are NOT exonic.
-* What is the average distance from GWAS SNPs to the closest exon? (Hint - have a look at the closest tool.)
-* Count how many exons occur in each 500kb interval (“window”) in the human genome. (Hint - have a look at the makewindows tool.)
-* Are there any exons that are completely overlapped by an enhancer? If so, how many?
+
+<details><summary>
+Tip
+</summary>
+
+<p>
+
+Use intersect with the `-v` flag
+
+</p>
+</details>
+
+* What is the average distance from GWAS SNPs to the closest exon? 
+
+<details><summary>
+Tip
+</summary>
+
+<p>
+
+(Hint - have a look at the closest tool.)
+</p>
+</details>
+
 * What fraction of the GWAS SNPs are exonic?
 
 
