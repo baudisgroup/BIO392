@@ -727,9 +727,94 @@ bedtools intersect \
 </details>
 
 
-# VCF
+
+# GTF
 
 ## Exercise 25
+
+Download and visualize the GTF estructure from the chr22 GRCh38 human genome (available at `http://genomedata.org/rnaseq-tutorial/annotations/GRCh38/chr22_with_ERCC92.gtf`)
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+cd ~/course/data
+curl -L http://genomedata.org/rnaseq-tutorial/annotations/GRCh38/chr22_with_ERCC92.gtf > chr22_with_ERCC92.gtf
+
+head chr22_with_ERCC92.gtf
+
+wc -l chr22_with_ERCC92.gtf
+
+```
+
+</p>
+</details>
+
+
+## Exercise 26
+
+Retrieve the details of transcript `ENST00000342247` (tip: use grep) from the
+`chr22_with_ERCC92.gtf` file. Then, retrieve the details of the `exon`s of transcript  `ENST00000342247` (tip: use grep after the grep). How many exons are they?
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+cd ~/course/data
+
+grep ENST00000342247 chr22_with_ERCC92.gtf | grep "exon\s"
+
+grep ENST00000342247 chr22_with_ERCC92.gtf | grep "exon\s" | wc -l
+
+```
+
+</p>
+
+
+</details>
+
+## Exercise 27
+
+How many start codons and stop codons does the chr22 have? Tip: use the gtf and grep for `start_codon` and `stop_codon`.
+
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+cd ~/course/data
+
+grep start_codon chr22_with_ERCC92.gtf | wc -l
+
+grep stop_codon chr22_with_ERCC92.gtf | wc -l
+
+
+```
+
+</p>
+
+
+</details>
+
+
+
+# VCF
+
+## Exercise 28
 
 Install an old version of VCFtools (disclaimer, this is old! you should install an up-to-date verson for handling your data) you can download from `https://sourceforge.net/projects/vcftools/files/vcftools_0.1.13.tar.gz/download` using `make`. The path you can choose, but you can use for instance `~/course/soft/`.
 
@@ -758,7 +843,7 @@ make
 </details>
 
 
-## Exercise 26
+## Exercise 29
 
 Check which is the current version of VCFtools and how should installation be carried out.
 
@@ -776,7 +861,7 @@ There is a tag named v0.1.16 (as for the 26th Sept 2018) [https://github.com/vcf
 </details>
 
 
-## Exercise 27
+## Exercise 30
 
 VCFtools has some data for testing purposes; find all the VCF files (filenames similar to `*vcf*`) that you downloaded during installation.
 
@@ -797,7 +882,7 @@ find ~/course/soft/vcftools_0.1.13 -name "*vcf" -type f
 </p>
 </details>
 
-## Exercise 28
+## Exercise 31
 
 Alias the vcftool binary (full path) to `vcftools` and then run it with no parameters
 
@@ -837,7 +922,7 @@ Questions, comments, and suggestions should be emailed to:
 </details>
 
 
-## Exercise 29
+## Exercise 32
 
 How many variants are kept after filtering at `~/course/soft/vcftools_0.1.13/examples/merge-test-a.vcf`? Tip: use the `--vcf` flag to `vcftools`. What does this result mean?
 
