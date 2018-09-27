@@ -344,6 +344,8 @@ awk '{print NR}' ~/course/data/SP1.fq
 
 We can also prepend the line number to the FASTQ file (please note we asume `SP1.fq` is on the working directory)
 
+Tip: `awk '{print $0 }'` filename prints the whole line, to which you can add the ``NR``.
+
 ```bash
 awk '{print NR, $0 }' SP1.fq | head # note output in first column
 
@@ -436,6 +438,16 @@ awk 'NR % 4 == 1 {print ">"$1};
      NR % 4 == 2 {print}' SP1.fq \
      > ~/course/data/example.fa
 ```
+
+or, equivalently (data is one-column),
+
+```bash
+
+awk 'NR % 4 == 1 {print ">"$0}; 
+     NR % 4 == 2 {print}' SP1.fq \
+     > ~/course/data/example.fa
+```
+
 </p>
 </details>
 
@@ -491,6 +503,7 @@ head ex1.sam
 
 Transform the file `~/course/soft/bedtools2/test/intersect/a.bed` (BED6) to BED3 (tip: use awk to extract the first three columns).
 
+Tip: `OFS='\t'` in awk specifies the output field separator: a tab (`\t`).
 
 <details><summary>
 Answer
@@ -699,6 +712,17 @@ bedtools intersect \
   -a  ~/course/soft/bedtools2/test/intersect/a.bed \
   -b  ~/course/soft/bedtools2/test/intersect/b.bed
 ```
+
+You can explore what happens if inverting the -a and -b flags; for this the -wa and -wb flags might be helpful
+
+```bash
+
+bedtools intersect \
+  -v \
+  -wa -wb \
+  -b  ~/course/soft/bedtools2/test/intersect/a.bed \
+  -a  ~/course/soft/bedtools2/test/intersect/b.bed
+  ```
   
 </p>
 </details>
@@ -939,15 +963,139 @@ vcftools --vcf ~/course/soft/vcftools_0.1.13/examples/merge-test-a.vcf
 
 ```
 
+</p>
+</details>
+
+# Real data integration
+
+## Exercise 33
+
+Explore human variation data for mobile elements insertion using the [1000genomes data](http://www.internationalgenome.org/data). More precisely, download the pilot [pilot data](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/paper_data_sets/a_map_of_human_variation/low_coverage/sv/) named `CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf.gz` (the full path to the remote FTP server is `ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/paper_data_sets/a_map_of_human_variation/low_coverage/sv/CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf.gz`).
+
+Then, explore the number of variants (tip: use `vcftools`), the file contents etc.
+
+Tip: remember where the `bedtools` and `vcftools` binaries are and/or use an alias to them.
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+```bash
+
+cd ~/course/data
+curl -L ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/paper_data_sets/a_map_of_human_variation/low_coverage/sv/CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf.gz > CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf.gz
+
+
+gunzip CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf.gz 
+
+wc -l CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf 
+
+vcftools --vcf CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf
+
+```
+
+</p>
+</details>
+
+## Exercise 34
+
+As a first exercise, how many of these intertions overlap human exons? Do you expect to be a low or high proportion?
+
+To do so download an exons bedfile from `https://s3.amazonaws.com/bedtools-tutorials/web/exons.bed` and then use bedtools intersect. Tip: it won't work because of the chromosome numbering (tip: check how chrosomosome numbers are encoded in both exons.bed and the vcf file, i.e. whether starting with a `chr` or not, and harmonize them using `awk`).
+
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+
+```bash
+
+cd ~/course/data
+
+curl -O https://s3.amazonaws.com/bedtools-tutorials/web/exons.bed
+
+bedtools intersect -a CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf \
+  -b exons.bed
+
+## this does not work as intended! or, rather, gives some warnings.
+## Why? The chr strings at the coordinates are present in one bedfile but not in the other
+
+tail CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf
+
+tail exons.bed
+
+## removing the chr string from the exons bedfile
+
+sed 's/^chr//g' exons.bed > exons_nochr.bed
+
+head exons_nochr.bed
+
+## this should work (chr naming conventions are equivalent)
+bedtools intersect -a CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf \
+  -b exons_nochr.bed
+
+```
+
+Are these few or lots? What would you expect?
+
+
+```bash
+
+bedtools intersect -a CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf   -b exons_nochr.bed | wc -l
+
+
+```
 
 </p>
 </details>
 
 
+## Exercise 35
 
-## Exercise n-1
+Continuing with the mobile elements insertions, get the chromatin states with the highest number of insertions using the `CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf` and the Ernst's genome segmentation ([more info here](http://compbio.mit.edu/ChromHMM/)) as downloaded from `https://s3.amazonaws.com/bedtools-tutorials/web/hesc.chromHmm.bed`. Tip: then select the fourth column of the ChromHMM bedfile, sort it and count with `uniq -c`.
 
-Play with real genomic data using the [BEDtools tutorial](http://quinlanlab.org/tutorials/bedtools/bedtools.html) which explores the Maurano et al paper [Systematic Localization of Common Disease-Associated Variation in Regulatory DNA published in Science, 2012](https://www.ncbi.nlm.nih.gov/pubmed/22955828).
+<details><summary>
+Answer
+</summary>
+
+<p>
+
+
+```bash
+
+cd ~/course/data
+
+curl -O https://s3.amazonaws.com/bedtools-tutorials/web/hesc.chromHmm.bed
+
+# first removing the chrstrings again
+
+sed 's/^chr//g' hesc.chromHmm.bed > hesc.chromHmm_nochr.bed
+
+bedtools intersect\
+  -b CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf \
+  -a  hesc.chromHmm_nochr.bed | awk '{print $4}' | sort | uniq -c
+```
+
+So apparently there is plenty of  heterochromatin/low CNV regions, but is there an overrepresentation? How many  heterochromatin/low CNV regions are there in the whole genome?
+
+```bash
+
+awk '{print $4}' hesc.chromHmm_nochr.bed | sort | uniq -c
+
+```
+
+
+</p>
+</details>
+
+
+## Exercises block 36
+
+Play with other real genomic data using the [BEDtools tutorial](http://quinlanlab.org/tutorials/bedtools/bedtools.html) which explores the Maurano et al paper [Systematic Localization of Common Disease-Associated Variation in Regulatory DNA published in Science, 2012](https://www.ncbi.nlm.nih.gov/pubmed/22955828).
 
 Mind that the tutorial recommends creating a folder with `mkdir -p ~/workspace/monday/bedtools`: if you do so and move (`mv`) there, your path (the one you can get using `pwd`) won't be at the standard `~/course` we used till now.
 
@@ -1022,7 +1170,7 @@ Tip
 * What fraction of the GWAS SNPs are exonic?
 
 
-## Exercise n
+## Exercises block 37
 
 Explore (not necessarily run) more usage examples with biological meaning using UNIX and BEDTools [http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/](http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/).
 
