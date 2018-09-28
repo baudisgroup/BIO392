@@ -1177,3 +1177,16 @@ Tip
 Explore (not necessarily run) more usage examples with biological meaning using UNIX and BEDTools [http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/](http://pedagogix-tagc.univ-mrs.fr/courses/jgb53d-bd-prog/practicals/03_bedtools/).
 
 
+## Exercise 38 Sum up
+
+Read an overview of all the file formats available at UCSC. You can upload some of the files you used during the course to the UCSC genome browser to see how do they look like. Anyway you can download, read, edit them using UNIX (i.e. `awk`, `grep` etc). And ask biological questions using bedtools/vcftools.
+
+* [All](https://genome.ucsc.edu/FAQ/FAQformat.html)
+* [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+* [Wiggle](https://genome.ucsc.edu/goldenPath/help/wiggle.html)
+* [BedGraph](https://genome.ucsc.edu/goldenpath/help/bedgraph.html)
+* [GFF](https://genome.ucsc.edu/FAQ/FAQformat.html#format3)
+* [GTF](https://genome.ucsc.edu/FAQ/FAQformat.html#format4)
+* [VCF](https://genome.ucsc.edu/FAQ/FAQformat.html#format10.1)
+
+In this course we used plain text data standards. But faster, indexed versions of such formats exist: i.e. bigWig (for wiggle), BCF (for VCF), BAM (for SAM). For instance, you can read how indexing is carried out in [bigWigs](https://genome.ucsc.edu/goldenpath/help/bigWig.html). 
