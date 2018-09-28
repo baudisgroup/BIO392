@@ -840,7 +840,7 @@ grep stop_codon chr22_with_ERCC92.gtf | wc -l
 
 ## Exercise 28
 
-Install an old version of VCFtools (disclaimer, this is old! you should install an up-to-date verson for handling your data) you can download from `https://sourceforge.net/projects/vcftools/files/vcftools_0.1.13.tar.gz/download` using `make`. The path you can choose, but you can use for instance `~/course/soft/`.
+Install an old version of VCFtools (disclaimer, this is old! this version is ok for teaching purposes, but please consider installing an up-to-date verson for handling your data in the future) you can download from `https://sourceforge.net/projects/vcftools/files/vcftools_0.1.13.tar.gz/download` using `make`. The path you can choose, but you can use for instance `~/course/soft/`.
 
 <details><summary>
 Answer
@@ -869,7 +869,7 @@ make
 
 ## Exercise 29
 
-Check which is the current version of VCFtools and how should installation be carried out.
+Check which is the current version of VCFtools? How should installation be carried out? (tip: Git repositories release tagged versions).
 
 <details><summary>
 Answer
@@ -887,9 +887,7 @@ There is a tag named v0.1.16 (as for the 26th Sept 2018) [https://github.com/vcf
 
 ## Exercise 30
 
-VCFtools has some data for testing purposes; find all the VCF files (filenames similar to `*vcf*`) that you downloaded during installation.
-
-
+VCFtools has some data for testing purposes; find all the VCF files (filenames similar to `*vcf*`) that you downloaded during installation and inspect them using `head`.
 
 <details><summary>
 Answer
@@ -976,6 +974,8 @@ Then, explore the number of variants (tip: use `vcftools`), the file contents et
 
 Tip: remember where the `bedtools` and `vcftools` binaries are and/or use an alias to them.
 
+For further details on mobile elements insertion as a source of human variation please check the paper [Stewart et al 2011](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002236).
+
 <details><summary>
 Answer
 </summary>
@@ -1001,9 +1001,9 @@ vcftools --vcf CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf
 
 ## Exercise 34
 
-As a first exercise, how many of these intertions overlap human exons? Do you expect to be a low or high proportion?
+As a first exercise, how many of these intertions overlap human exons? Do you expect it to be a low or high proportion?
 
-To do so download an exons bedfile from `https://s3.amazonaws.com/bedtools-tutorials/web/exons.bed` and then use bedtools intersect. Tip: it won't work because of the chromosome numbering (tip: check how chrosomosome numbers are encoded in both exons.bed and the vcf file, i.e. whether starting with a `chr` or not, and harmonize them using `awk`).
+To do so download an exons bedfile from `https://s3.amazonaws.com/bedtools-tutorials/web/exons.bed` and then use bedtools intersect. Tip: it won't work because of the chromosome numbering (tip: check how chromosome numbers are encoded in both exons.bed and the vcf file, i.e. whether starting with a `chr` or not, and harmonize them using `awk`).
 
 <details><summary>
 Answer
@@ -1056,7 +1056,9 @@ bedtools intersect -a CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf
 
 ## Exercise 35
 
-Continuing with the mobile elements insertions, get the chromatin states with the highest number of insertions using the `CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf` and the Ernst's genome segmentation ([more info here](http://compbio.mit.edu/ChromHMM/)) as downloaded from `https://s3.amazonaws.com/bedtools-tutorials/web/hesc.chromHmm.bed`. Tip: then select the fourth column of the ChromHMM bedfile, sort it and count with `uniq -c`.
+Continuing with the mobile elements insertions, where do they insert preferentially? In active or inactive regions? To briefly explore this get the chromatin states with the highest number of insertions using the `CEU.low_coverage.2010_10.MobileElementInsertions.sites.vcf` and the Ernst's genome segmentation ([more info here](http://compbio.mit.edu/ChromHMM/)) as downloaded from `https://s3.amazonaws.com/bedtools-tutorials/web/hesc.chromHmm.bed`. Tip: then select the fourth column of the ChromHMM bedfile, sort it and count with `uniq -c`.
+
+For further details on what is a ChromHMM segmentation (i.e. assigning functions to genomic ranges) please read [Nature Methods volume 9, pages 215–216 (2012)](https://www.nature.com/articles/nmeth.1906).
 
 <details><summary>
 Answer
