@@ -113,7 +113,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 ##### 2018-10-02 (Tue), 13-17
 
-* [Protein Structure Slides]()
+* [Protein Structure Slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_lecture1.pdf)
   - Protein Data Bank [PDB](https://www.rcsb.org/)
 * Literature 
   - [Bhattacharya R, Rose PW, Burley SK, Prlić A (2017) Impact of genetic variation on three dimensional structure and function of proteins. PLOS ONE 12(3): e0171355.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171355)
