@@ -112,13 +112,14 @@ Conceptually, mornings are predominantly related to introductions, presentations
 #### Genome Variants to Modified Proteins ([Elif Ozkirimli Olmez](http://www.biochem-caflisch.uzh.ch/members/Ozkirimli/Elif))
 
 ##### 2018-10-02 (Tue), 13-17
-* Protein Structure
+
+* [Protein Structure Slides]()
   - Protein Data Bank [PDB](https://www.rcsb.org/)
 * Literature 
   - [Bhattacharya R, Rose PW, Burley SK, Prlić A (2017) Impact of genetic variation on three dimensional structure and function of proteins. PLOS ONE 12(3): e0171355.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171355)
   - [Zehir, A., Benayed, R., Shah, R. H., Syed, A., Middha, S., Kim, H. R., et al. (2017). Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients. Nature Medicine, 23(6), 703–713.](http://doi.org/10.1038/nm.4333)
   - [Studer, R. A., Dessailly, B. H., & Orengo, C. A. (2013). Residue mutations and their impact on protein structure and function: detecting beneficial and pathogenic changes. Biochemical Journal, 449(3), 581–594.](http://doi.org/10.1042/BJ20121221)
-* Protein Structure Analysis Activity
+* [Protein Structure Analysis Task]()
 ##### 2018-10-03 (Wed), 09-17
 ##### 2018-10-04 (Thu), 09-17
 ##### 2018-10-05 (Fri), 09-17
