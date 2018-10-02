@@ -122,7 +122,9 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [Protein Structure Analysis Task](https://github.com/baudisgroup/BIO392-Github/blob/master/Protein_structure_activity.pdf)
 ##### 2018-10-03 (Wed), 09-17
 * Go over the protein structure analysis task from Tuesday. All of you did a great job!
-* [Uniprot slides]()
+* [Uniprot slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_uniprot.pdf)
+    - [Uniprot](https://www.uniprot.org/)
+    - [Gene Ontology, GO](http://geneontology.org/)
 * [Uniprot videos](https://www.youtube.com/watch?v=x9GNm2DLP-U), [Feature viewer](https://www.youtube.com/watch?v=JjdLtoaNpf4)
 * [Uniprot activity](https://www.uniprot.org/)
 * [Alignment slides]()
