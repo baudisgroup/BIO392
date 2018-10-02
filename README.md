@@ -128,6 +128,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [Uniprot videos](https://www.youtube.com/watch?v=x9GNm2DLP-U), [Feature viewer](https://www.youtube.com/watch?v=JjdLtoaNpf4)
 * [Uniprot activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Uniprot_activity.pdf)
 * [Alignment slides]()
+* [Afternoon activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Uniprot_activity2.pdf)
 ##### 2018-10-04 (Thu), 09-17
 ##### 2018-10-05 (Fri), 09-17
 * Morning: Presentations on *your* protein
