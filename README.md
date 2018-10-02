@@ -123,6 +123,13 @@ Conceptually, mornings are predominantly related to introductions, presentations
 ##### 2018-10-03 (Wed), 09-17
 ##### 2018-10-04 (Thu), 09-17
 ##### 2018-10-05 (Fri), 09-17
+* Morning: Presentations on *your* protein
+  - Biological relevance of your protein
+  - Experimental details/methods
+  - 2 key findings
+  - Position of mutations on protein structure (structure figure)
+  - Discussion 
+* Afternoon: [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) task
 
 #### Review & Write-Up (Michael Baudis)
 
