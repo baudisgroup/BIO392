@@ -121,6 +121,10 @@ Conceptually, mornings are predominantly related to introductions, presentations
   - [Studer, R. A., Dessailly, B. H., & Orengo, C. A. (2013). Residue mutations and their impact on protein structure and function: detecting beneficial and pathogenic changes. Biochemical Journal, 449(3), 581–594.](http://doi.org/10.1042/BJ20121221)
 * [Protein Structure Analysis Task](https://github.com/baudisgroup/BIO392-Github/blob/master/Protein_structure_activity.pdf)
 ##### 2018-10-03 (Wed), 09-17
+* Go over the protein structure analysis task from Tuesday
+* [Uniprot slides]()
+* [Uniprot activity](https://www.uniprot.org/)
+* [Alignment slides]()
 ##### 2018-10-04 (Thu), 09-17
 ##### 2018-10-05 (Fri), 09-17
 * Morning: Presentations on *your* protein
