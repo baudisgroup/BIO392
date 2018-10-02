@@ -123,7 +123,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
 ##### 2018-10-03 (Wed), 09-17
 * Go over the protein structure analysis task from Tuesday
 * [Uniprot slides]()
-* [Uniprot videos](https://www.youtube.com/watch?v=x9GNm2DLP-U, https://www.youtube.com/watch?v=JjdLtoaNpf4)
+* [Uniprot videos](https://www.youtube.com/watch?v=x9GNm2DLP-U)(https://www.youtube.com/watch?v=JjdLtoaNpf4)
 
 
 * [Uniprot activity](https://www.uniprot.org/)
