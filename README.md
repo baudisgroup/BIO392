@@ -130,6 +130,9 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [Alignment slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_alignmentlecture.pdf)
 * [Afternoon activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Uniprot_activity2.pdf)
 ##### 2018-10-04 (Thu), 09-17
+* We start at 9:30
+* [Oct 4 slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_oct4slides.pdf)
+* [Oct 4 activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Oct4_activity.pdf)
 ##### 2018-10-05 (Fri), 09-17
 * Morning: Presentations on *your* protein
   - Biological relevance of your protein
