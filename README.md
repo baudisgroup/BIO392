@@ -8,11 +8,14 @@ The home page of this repository can be found at [baudisgroup.github.io/BIO392-G
 
 One of the fastest growing areas of bioinformatics is in the analysis, warehousing and representation of genomic and protein sequence variants, particularly with view on the use of molecular data in personalised health and biomedical applications in general. This course will engage participants to explore common data formats, online resources and analysis techniques, with a focus on human genome variation data.
 
+<h2 style="color: red;">Learning Goals</h2>
+
+* Core [__Learning Goals__](learning-goals.html), relevant for passing the test...
+
 #### Links
 
 * BIO392 in the [UZH OLAT](https://lms.uzh.ch/auth/RepositoryEntry/16434233613) system
 * BIO392 in the [UZH directory](https://studentservices.uzh.ch/uzh/anonym/vvz/index.html#/details/2018/003/SM/50920456)
-* Core [__Learning Goals__](learning-goals.html)
 
 #### Literature and Resources
 
