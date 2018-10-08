@@ -48,6 +48,14 @@ You should be able to list at least 2-3 core features (main use cases, type, cor
 - VCF (more extensive understanding of file structure expected)
 - "segment files"
 
+### Protein representation of variants
+
+- protein sizes
+- resource(s) for 3D protein structures and other protein information resources
+- types of genome variants with respect to their impact on protein composition
+- amino acid physicochemical properties (size, charge) and effect of variation due to amino acid properties
+- conservation state of a given AA and its relation to mutation frequency and functional importance
+
 ### Tutorials
 
 - What is "liftover" being used for?
