@@ -12,6 +12,7 @@ One of the fastest growing areas of bioinformatics is in the analysis, warehousi
 
 * BIO392 in the [UZH OLAT](https://lms.uzh.ch/auth/RepositoryEntry/16434233613) system
 * BIO392 in the [UZH directory](https://studentservices.uzh.ch/uzh/anonym/vvz/index.html#/details/2018/003/SM/50920456)
+* Core [__Learning Goals__](learning-goals.html)
 
 #### Literature and Resources
 
