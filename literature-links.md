@@ -13,8 +13,11 @@ This page collects items for the course "reading list" (and beyond). Since the r
 * TCGA Project - The Cancer Genome Atlas Pan Cancer analysis project - Nature Genetics [PDF](http://internal.baudisgroup.org/assets/articles_and_presentations/2013-10-01___TCGA_Project__The-Cancer-Genome-Atlas-Pan-Cancer-analysis-project__Nature_Genetics.pdf)
 * den Dunnen and Antonorakis (2000): Mutation Nomenclature Extensions (i.e. "HGVS") - [pdf](2000-01-01___den_Dunnen_and_Antonorakis__Mutation-Nomenclature-Extensions__Human_Mutation.pdf)
 * den Dunnen et al. (2016): HGVS Nomenclature Update [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2016-03-02___Dunnen_et_al.__HGVS%20Recommendations_2016-Update__Human_Mutation.pdf)
-* Sondka et al. - COSMIC Cancer Gene Census - Nature Reviews Cancer (2018-10-09)[PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2018-10-09___Sondka-et-al.__COSMIC-Cancer-Gene-Census__Nature-Reviews-Cancer.pdf)
-* S. Samarajiwa - Genome Browsers [slides](2018-10-09)[PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2014-07-27___Samarajiwa__Genome-Browsers__Cambridge-lecture-slides)
+* Sondka et al. - COSMIC Cancer Gene Census - Nature Reviews Cancer (2018-10-09) [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2018-10-09___Sondka-et-al.__COSMIC-Cancer-Gene-Census__Nature-Reviews-Cancer.pdf)
+* S. Samarajiwa - Genome Browsers (2018-10-09)  [slides](https://internal.baudisgroup.org/assets/articles_and_presentations/2014-07-27___Samarajiwa__Genome-Browsers__Cambridge-lecture-slides)
+* Gymrek et al. - Identifying Personal Genomes by Surname Inference (Science, 2013-01-18) [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2013-01-18___Gymrek-et-al.__Identifying-Personal-Genomes-by-Surname-Inference__Science.pdf)
+* Erlich and Narayanan2 - Routes for breaching and protecting genetic privacy (2014-06-17; Nat Rev Gen) [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2014-06-17___Erlich__Routes_breaching_genetic_privacy__NatRevGen.pdf)
+* Shringarpure-and-Bustamante - Privacy Risks from Genomic Data-Sharing Beacons [PDF](https://internal.baudisgroup.org/assets/articles_and_presentations/2015-11-05___Shringarpure-and-Bustamante__Privacy-Risks-from-Genomic-Data-Sharing-Beacons__American-Journal-of-Human-Genetics.pdf)
 
 ### Literature review & Discussion - Thursday 20th afternoon session
 
