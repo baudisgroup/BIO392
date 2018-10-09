@@ -146,10 +146,17 @@ Conceptually, mornings are predominantly related to introductions, presentations
   - Discussion 
 * Afternoon: [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) task
 
-#### Review & Write-Up (Michael Baudis)
+#### Review, feedback & test (Michael Baudis)
 
-* 2018-10-09 (Tue), 13-17
-* 2018-10-10 (Wed), 09-17
-    * Written exam
+* 2018-10-09 (Tue), 13-17 ([slides](assets/2018-10-09-BIO392-variant-privacy.pdf))
+  - Ontologies for metadata annotations (very brief introduction)
+  - Privacy, security, society - implications of availability & possible re-identification of genome data
+    - long range familial identification
+    - principles of Beacon-style re-identification attack
+    - "ease" of field sequencing (MinIon etc.)
+* 2018-10-10 (Wed), 09-14:30
+  * preparation/recap time in the morning
+  * Written exam (13:00 - 14:30)
+    - multiple choice and free questions
 
 <img src="assets/Y01-F-50-location.png" style="float: left;" />

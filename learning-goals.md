@@ -43,10 +43,10 @@ You should be able to list at least 2-3 core features (main use cases, type, cor
 
 - FASTA
 - FASTQ
-- SAM/BAM/CRAM
+- SAM/BAM/~~CRAM~~
 - BED
 - VCF (more extensive understanding of file structure expected)
-- "segment files"
+- ~~"segment files"~~
 
 ### Protein representation of variants
 
