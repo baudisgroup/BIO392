@@ -10,7 +10,7 @@ One of the fastest growing areas of bioinformatics is in the analysis, warehousi
 
 <h2 style="color: red;">Learning Goals</h2>
 
-* Core [__Learning Goals__](learning-goals.html), relevant for passing the test...
+* Core [__Learning Goals__](learning-goals.md), relevant for passing the test...
 
 #### Links
 
