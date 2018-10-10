@@ -63,4 +63,10 @@ You should be able to list at least 2-3 core features (main use cases, type, cor
 	- What do you analyse with PLINK?
 	- Examples for filters/parameters used in linkage analysis
 
+### Genomic privacy
 
+- genome "Beacons" 
+  - concept
+  - "unbreakable"?
+- de-identification attacks
+- genomic privacy, research, comparable risks (opinions)
