@@ -158,5 +158,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
   * preparation/recap time in the morning
   * Written exam (13:00 - 14:30)
     - multiple choice and free questions
+    
+* 2018-10-11 Course feedback page [has been posted](course-feedback.md)
 
 <img src="assets/Y01-F-50-location.png" style="float: left;" />
