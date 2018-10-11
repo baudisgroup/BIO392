@@ -15,8 +15,17 @@ Conceptually, mornings are predominantly related to introductions, presentations
 * [reading](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
     - 1000 Genomes paper
     - The sequence of sequencers paper
-* [tasks](https://baudisgroup.github.io/BIO392-Github/literature-links.html):
-    - Genome Storage Space & Cost
+* tasks:
+    - Genome Storage Space & Cost, e.g. required for 1000 Genomes
+      * WES & WGS
+      * Different file formats
+         * SAM
+         * BAM
+         * VCF
+         * FASTA
+      * Associated costs
+      * Cost factors
+      * Raw Storage costs
 
 ##### 2018-09-19 (Wed), 09-17
 * reference genome resources
@@ -43,16 +52,16 @@ Conceptually, mornings are predominantly related to introductions, presentations
     - Use of variant databases and annotation tools ([CiVIC](https://civicdb.org), [OncoKB](http://oncokb.org/#/), [ClinGen](https://www.clinicalgenome.org/), [arrayMap](http://arraymap.org)…)
 * [info slides](assets/2018-09-21-BIO392-variant-resources-arraymap.pdf) from the morning session
 * Hands-on analysis of genome data
-    - [copy number segmentation tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/DNAcopy_segmentation.r) [Reference publication](https://internal.baudisgroup.org/assets/articles_and_presentations/2004-10-01___Olshen___Circular_binary_segmentation_for_the_analysis_of_array_based_DNA_copy_number_data.pdf)
-    - [plink tutorial](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
-    - [variant <-> disease mapping exercise](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/variant_diseases_session.pdf)
+    - [copy number segmentation tutorial](assets/DNAcopy_segmentation.r) [Reference publication](https://internal.baudisgroup.org/assets/articles_and_presentations/2004-10-01___Olshen___Circular_binary_segmentation_for_the_analysis_of_array_based_DNA_copy_number_data.pdf)
+    - [plink tutorial](assets/PLINK_tutorial/plink_intro%2Bexercise.pdf)
+    - [variant <-> disease mapping exercise](assets/variant_diseases_session.pdf)
 
 #### Tools & Programmatic Solutions ([Izaskun Mallona](https://www.dmmd.uzh.ch/en/research/baubec/groupmembers/imallona.html))
 
 * [SIB Swiss Institute of Bioinformatics tutorial on UNIX](https://edu.sib.swiss/pluginfile.php/2878/mod_resource/content/4/couselab-html/content.html)
-* [Unix slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/1_unix.pdf)
-* [Genomic formats slides](https://baudisgroup.github.io/BIO392-Github/assets/imallona/2_genomics.pdf)
-* [Exercises](https://github.com/baudisgroup/BIO392-Github/blob/master/assets/imallona/3_exercises.md)
+* [Unix slides](assets/imallona/1_unix.pdf)
+* [Genomic formats slides](assets/imallona/2_genomics.pdf)
+* [Exercises](assets/imallona/3_exercises.md)
 
 ##### 2018-09-25 (Tue), 13-17
 * How are UCSC Genome Browser data stored? Why?
@@ -68,7 +77,7 @@ Conceptually, mornings are predominantly related to introductions, presentations
    - Chapter 3: UNIX shell - first steps
    - Chapter 4: UNIX shell - filesystem commands
    - Chapter 5: UNIX shell - working with files
-   
+
 ##### 2018-09-27 (Thu), 09-17
 * Overview of the standard genomics data formats (I)
    - FASTA
@@ -91,33 +100,36 @@ Conceptually, mornings are predominantly related to introductions, presentations
 
 ##### 2018-10-02 (Tue), 13-17
 
-* [Protein Structure Slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_lecture1.pdf)
+* [Protein Structure Slides](assets/bio392_lecture1.pdf)
   - Protein Data Bank [PDB](https://www.rcsb.org/)
-* Literature 
+* Literature
   - [Bhattacharya R, Rose PW, Burley SK, Prlić A (2017) Impact of genetic variation on three dimensional structure and function of proteins. PLOS ONE 12(3): e0171355.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171355)
   - [Zehir, A., Benayed, R., Shah, R. H., Syed, A., Middha, S., Kim, H. R., et al. (2017). Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients. Nature Medicine, 23(6), 703–713.](http://doi.org/10.1038/nm.4333)
   - [Studer, R. A., Dessailly, B. H., & Orengo, C. A. (2013). Residue mutations and their impact on protein structure and function: detecting beneficial and pathogenic changes. Biochemical Journal, 449(3), 581–594.](http://doi.org/10.1042/BJ20121221)
-* [Protein Structure Analysis Task](https://github.com/baudisgroup/BIO392-Github/blob/master/Protein_structure_activity.pdf)
+* [Protein Structure Analysis Task](assets/Protein_structure_activity.pdf)
+
 ##### 2018-10-03 (Wed), 09-17
 * Go over the protein structure analysis task from Tuesday. All of you did a great job!
-* [Uniprot slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_uniprot.pdf)
+* [Uniprot slides](assets/bio392_uniprot.pdf)
     - [Uniprot](https://www.uniprot.org/)
     - [Gene Ontology, GO](http://geneontology.org/)
 * [Uniprot introduction video](https://www.youtube.com/watch?v=x9GNm2DLP-U), [Uniprot Feature viewer video](https://www.youtube.com/watch?v=JjdLtoaNpf4)
 * [Uniprot activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Uniprot_activity.pdf)
 * [Alignment slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_alignmentlecture.pdf)
 * [Afternoon activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Uniprot_activity2.pdf)
+
 ##### 2018-10-04 (Thu), 09-17
 * We start at 9:30
-* [Oct 4 slides](https://github.com/baudisgroup/BIO392-Github/blob/master/bio392_oct4slides.pdf)
-* [Oct 4 activity](https://github.com/baudisgroup/BIO392-Github/blob/master/Oct4_activity.pdf)
+* [Oct 4 slides](assets/bio392_oct4slides.pdf)
+* [Oct 4 activity](assets/Oct4_activity.pdf)
+
 ##### 2018-10-05 (Fri), 09-17
 * Morning: Presentations on *your* protein
   - Biological relevance of your protein
   - Experimental details/methods
   - 2 key findings
   - Position of mutations on protein structure (structure figure)
-  - Discussion 
+  - Discussion
 * Afternoon: [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) task
 
 #### Review, feedback & test (Michael Baudis)
